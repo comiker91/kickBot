@@ -17,6 +17,7 @@ To install and use the code you have to install the requiremeints.txt via pip
 
 ## Usage
 
+
 In the firtst commit you have to change the chatroom you want to connect. You do this in the *src/client/baseclient.py*. 
 In this file is the Chatroom ID hardcoded in line 29. Just change it to whatever you need. 
 
@@ -27,7 +28,7 @@ To get the ID of the chatroom you have to call the Kick API URL:
 In the json response you can find the chatroom ID.
 
 
-To use the client you have to create a BaseClient:
+To use the client you have to create a BaseClient (*main.py*):
 
 > from  src.client.baseclient  import  BaseClient
 > 
